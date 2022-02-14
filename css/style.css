@@ -6,17 +6,54 @@
     padding: 0px;
 }
 
+body {
+    background-color: gray;
+}
+
+header {
+    background-color: white;
+    height: 70px;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+nav a {
+    display: inline-block;
+}
+
 .logo {
-    height: 50px;
+    margin: 15px 5px;
+    position:fixed;
+    right: 45vw;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.logo-img {
+    height: 50px;   
+}
+
+.nav {
+    position: fixed;
+    right: 0px;
 }
 
 .nav-buttons {
     display: inline-block;
-    --text-decoration: none;
-    margin: 5px 50px;
+    margin: 10px 5px;
     height: 50px;
-    width: 200px;
+    width: 100px;
     line-height: 50px;
     text-align: center;
-    background-color: aqua;
+}
+
+.nav-buttons:hover {
+    background-color: rgb(243, 243, 243);
+    font-weight: bold;
 }
