@@ -21,7 +21,7 @@ h2 {
     font-family: 'Roboto', sans-serif;
     text-align: center;
     font-size: 3.5rem;
-
+    margin-bottom: 100px;
 }
 
 p {
@@ -129,10 +129,39 @@ section {
     object-fit: none;
 }
 
-.section-facts {
-    background-color: #C8C9CF;
+.section-habitat {
+    background-color: #cef0fa;
 }
 
-.section-facts p {
-    margin: 50px 300px;
+.section-habitat p {
+    text-align: justify;
+    margin-top: 50px;
+}
+
+.section-habitat div {
+    height: 70vh;
+    width: 40%;
+    display: inline-block;
+    
+}
+
+.left {
+    position: absolute;
+    left: 100px;
+}
+
+.right {
+    position: absolute;
+    right: 100px;
+}
+
+.habitat-img {
+    background-image: url("../images/otters-kelp.jpg");
+    background-size: contain;
+    border-radius: 30px;
+}
+
+.cute-text {
+    padding:0px 300px;
+    text-align: justify;
 }
