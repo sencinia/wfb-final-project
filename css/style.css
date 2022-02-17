@@ -186,5 +186,13 @@ section {
 footer {
     height: 50px;
     background-color: #cef0fa;
-    
+}
+
+.socials {
+    text-align: center;
+}
+
+.socials a {
+    font-size: 30px;
+    margin: 0 30px;
 }
