@@ -7,10 +7,31 @@
 }
 
 body {
-    background-color: gray;
+    background-color: white;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 5rem;
+
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 3.5rem;
+
+}
+
+p {
+    font-family: 'Rokkitt', serif;
+    font-size: 3rem;
 }
 
 /* HEADER */
+
+
 
 a {
     text-decoration: none;
@@ -22,6 +43,7 @@ nav {
     height: 70px;
     width: 100vw;
     position: fixed;
+    z-index: 2;
 }
 
 nav a {
@@ -65,11 +87,52 @@ nav a {
 
 /* MAIN */
 
-.hero {
+main {
+    z-index: 0;
+    position: relative;
+}
+
+section {
     height: 100vh;
-    width: 100vw; 
+    padding-top: 100px;
+    width: 100vw;
+}
+
+
+.hero {
+    width:100vw;
+}
+
+.hero-text {
+    background-color: none;
+    position: absolute;
+    top: 50vh;
+    left: 35vw;
+    color: white;
 }
 
 .section-why {
-    
+    background: white;
+}
+
+.section-why p {
+    margin: 50px 300px;
+}
+
+.three-otters{
+    height: 500px;
+    width: 800px;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: none;
+}
+
+.section-facts {
+    background-color: #C8C9CF;
+}
+
+.section-facts p {
+    margin: 50px 300px;
 }
